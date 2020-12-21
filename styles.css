@@ -84,9 +84,11 @@ header a {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  opacity: 0.5;
 }
 .controls li:hover {
   background: #ffeb3b;
+  opacity: 1;
 }
 .controls li:before {
   content: '';
